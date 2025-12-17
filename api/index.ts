@@ -9,7 +9,7 @@ import reviewsRouter from "./routers/reviews";
 
 const app = express();
 
-app.use(cors(config.corsOptions));
+app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
