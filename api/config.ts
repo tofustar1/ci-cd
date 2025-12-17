@@ -7,7 +7,7 @@ configDotenv({path: envFile});
 
 const rootPath = __dirname;
 
-const corsWhiteList = ['http://localhost:5173', 'http://localhost:5183'];
+const corsWhiteList = ['http://localhost:5173', 'http://localhost:5183', 'http://209.38.209.24/'];
 
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
